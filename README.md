@@ -33,7 +33,7 @@ for using right extruder only in single extruder print, left extruder unused
 
 **Attention:** When importing this profile bundle into Slic3r, existing presets may be overwritten. It is recommended to backup your custom/modified presets by exporting them as a bundle first (*File > Export Config Bundle*)
 
-To install the provided configuration bundle to your Slic3r installation, load the .ini file through the Menu *File > Import Config Bundle*.
+To install the provided configuration bundle to your Slic3r installation, load the .ini file through the Menu *File > Load Config Bundle*.
 
 
 ## Current Version
