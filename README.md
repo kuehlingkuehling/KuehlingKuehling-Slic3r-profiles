@@ -20,6 +20,7 @@ a lighter configuration, using 15% hexagonal infill to save weight and material
 ####FILAMENT presets
 * **Kuehling&Kuehling ABS snow-white**
 * **Kuehling&Kuehling ABS red**
+* **Kuehling&Kuehling HIPS**
 
 ####PRINTER presets
 * **Kuehling&Kuehling RepRap Industrial - DUAL EXTRUDER**
