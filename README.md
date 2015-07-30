@@ -13,16 +13,27 @@ The following profiles are included within the bundle .ini:
 
 ####PRINT presets
 * **SOLID**
-a configuration for solid objects, suited for mechanically loaded and tough parts
+a configuration for solid objects, suited for mechanically loaded and tough parts.
 * **SOLID (soluble)**
-a special configuration for solid objects, prepared for printing soluble support structures in a different material with the second extruder
+a special configuration for solid objects, prepared for printing soluble support structures in a different material with the second extruder.
+* **SOLID (bicolored)**
+a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile.
 * **ECO**
-a lighter configuration, using 15% hexagonal infill to save weight and material
+a lighter configuration, using 15% hexagonal infill to save weight and material.
+* **ECO (bicolored)**
+a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile. Lighter configuration, using 15% hexagonal infill to save weight and material.
 
 ####FILAMENT presets
 * **Kuehling&Kuehling ABS snow-white**
 * **Kuehling&Kuehling ABS red**
+* **Kuehling&Kuehling ABS black**
 * **Kuehling&Kuehling HIPS**
+* **Kuehling&Kuehling PA natural**
+* **Kuehling&Kuehling PC**
+* **Kuehling&Kuehling PVA natural**
+* **igus® iglidur® 180-PF**
+
+Refer to our manual at http://docs.kuehlingkuehling.de for further information on printing with these materials.
 
 ####PRINTER presets
 * **LEFT EXTRUDER ONLY**
