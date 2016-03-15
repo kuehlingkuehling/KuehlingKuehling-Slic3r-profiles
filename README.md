@@ -1,7 +1,7 @@
-# RepRap Industrial Slic3r profiles
+# HT500 Slic3r profiles
 
 This is the latest Slic3r configuration profile bundle provided by Kühling&Kühling for 
-their RepRap Industrial 3D printer. Use them as they are with Kühling&Kühling filaments
+their HT500 3D printer. Use them as they are with Kühling&Kühling filaments
 or take the configuration as a starting point for your individual needs.
 
 All information about the machine is available at
@@ -55,8 +55,8 @@ To install the provided configuration bundle to your Slic3r installation, load t
 ## Current Version
 
 The latest release of the profile bundle, conveniently packaged as a downloadable archive file 
-can be found at [https://github.com/kuehlingkuehling/RepRap-Industrial-Slic3r-profiles/releases](https://github.com/kuehlingkuehling/RepRap-Industrial-Slic3r-profiles/releases)
-Always check for compatibility with your specific machine revision as well as software/firmware and Slic3r versions in the release notes to each bundle!
+can be found at [https://github.com/kuehlingkuehling/KuehlingKuehling-Slic3r-profiles/releases](https://github.com/kuehlingkuehling/KuehlingKuehling-Slic3r-profiles/releases)
+Always check for compatibility with your specific model and machine revision as well as software/firmware and Slic3r versions in the release notes to each bundle!
 
 ## Author
 
