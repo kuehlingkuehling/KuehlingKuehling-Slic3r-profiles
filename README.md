@@ -12,8 +12,10 @@ All information about the machine is available at
 The following profiles are included within the bundle .ini:
 
 ####PRINT presets
-* **SOLID (nozzle 0.5)**
-a configuration for solid objects, suited for mechanically loaded and tough parts. Prepared for a 0.5mm nozzle.
+* **SOLID (nozzle 0.35)**, **SOLID (nozzle 0.5)**
+a configuration for solid objects, suited for mechanically loaded and tough parts. Prepared for 0.35/0.5mm nozzles.
+* **ECO (nozzle 0.35)**, **ECO (nozzle 0.5)**, **ECO (nozzle 0.75)**
+a configuration for solid objects, suited for mechanically loaded and tough parts. Prepared for 0.35/0.5/0.75mm nozzle.
 
 ####FILAMENT presets
 * **Polymaker PC-Max 1.75mm**
@@ -21,8 +23,8 @@ a configuration for solid objects, suited for mechanically loaded and tough part
 Refer to our manual at http://docs.kuehlingkuehling.de for further information on printing with these materials.
 
 ####PRINTER presets
-* **VP75 (nozzle 0.5)**
-for using left extruder only in single extruder print, right extruder unused
+* **VP75 (nozzle 0.35)**, **VP75 (nozzle 0.5)**, **VP75 (nozzle 0.75)**
+for using dependant on your nozzle currently installed.
 
 ## Installation
 
