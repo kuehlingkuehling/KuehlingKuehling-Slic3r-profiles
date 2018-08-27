@@ -1,7 +1,7 @@
 # HT500 Slic3r profiles
 
 This is the latest Slic3r configuration profile bundle provided by Kühling&Kühling for 
-their HT500 3D printer. Use them as they are with Kühling&Kühling filaments
+their HT500/HT500.2 3D printers. Use them as they are with Kühling&Kühling filaments
 or take the configuration as a starting point for your individual needs.
 
 All information about the machine is available at
@@ -14,7 +14,9 @@ The following profiles are included within the bundle .ini:
 ####PRINT presets
 * **SOLID**
 a configuration for solid objects, suited for mechanically loaded and tough parts.
-* **SOLID (soluble)**
+* **SOLID (soluble support)**
+a special configuration for solid objects, prepared for printing soluble support structures in a different material with the second extruder.
+* **SOLID (soluble support no raft)**
 a special configuration for solid objects, prepared for printing soluble support structures in a different material with the second extruder.
 * **SOLID (bicolored)**
 a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile.
@@ -29,8 +31,9 @@ a special configuration for dual color printing, to be used with *bicolored* dua
 * **Kuehling&Kuehling ABS black**
 * **Kuehling&Kuehling HIPS**
 * **Kuehling&Kuehling PA natural**
-* **Kuehling&Kuehling PC**
 * **Kuehling&Kuehling PVA natural**
+* **Polymaker PC-Max**
+* **Polymaker PC-Plus**
 * **igus® iglidur® 180-PF**
 
 Refer to our manual at http://docs.kuehlingkuehling.de for further information on printing with these materials.
@@ -49,6 +52,8 @@ special dual extruder preset for printing parts with soluble support structures.
 
 **Attention:** When importing this profile bundle into Slic3r, existing presets may be overwritten. It is recommended to backup your custom/modified presets by exporting them as a bundle first (*File > Export Config Bundle*)
 
+**Compatibility:** Slic3r Prusa Edition 1.41.0-beta or higher
+
 To install the provided configuration bundle to your Slic3r installation, load the .ini file through the Menu *File > Load Config Bundle*.
 
 
@@ -60,10 +65,7 @@ Always check for compatibility with your specific model and machine revision as 
 
 ## Author
 
-Under the umbrella of Kühling&Kühling GbR these profiles are developed by
-
-* Jonas Kühling <mail@jonaskuehling.de>
-* Simon Kühling <mail@simonkuehling.de>
+These profiles are developed by Kühling&Kühling GmbH, Christianspries 30, 24159 Kiel (Germany)
 
 ## License
 
