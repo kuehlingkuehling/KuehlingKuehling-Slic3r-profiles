@@ -1,4 +1,4 @@
-# HT500 Slic3r profiles
+# HT500/HT500.2 Slic3r profiles
 
 This is the latest Slic3r configuration profile bundle provided by Kühling&Kühling for 
 their HT500/HT500.2 3D printers. Use them as they are with Kühling&Kühling filaments
