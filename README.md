@@ -1,6 +1,6 @@
-# HT500.3 Slic3r profiles
+# HT500.3 PrusaSlicer profiles
 
-This is the latest Slic3r configuration profile bundle provided by Kühling&Kühling for 
+This is the latest PrusaSlicer configuration profile bundle provided by Kühling&Kühling for 
 their HT500.3 3D printers. Use them as they are with Kühling&Kühling filaments
 or take the configuration as a starting point for your individual needs.
 
@@ -62,7 +62,7 @@ To install the provided configuration bundle to your PrusaSlicer installation, l
 
 The latest release of the profile bundle, conveniently packaged as a downloadable archive file 
 can be found at [https://github.com/kuehlingkuehling/KuehlingKuehling-Slic3r-profiles/releases](https://github.com/kuehlingkuehling/KuehlingKuehling-Slic3r-profiles/releases)
-Always check for compatibility with your specific model and machine revision as well as software/firmware and Slic3r versions in the release notes to each bundle!
+Always check for compatibility with your specific model and machine revision as well as software/firmware and PrusaSlicer versions in the release notes to each bundle!
 
 ## Author
 
