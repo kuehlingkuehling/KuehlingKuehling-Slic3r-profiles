@@ -21,40 +21,41 @@ a special configuration for solid objects, prepared for printing soluble support
 * **SOLID (bicolored)**
 a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile.
 * **ECO**
-a lighter configuration, using 15% hexagonal infill to save weight and material.
+a lighter configuration, using 30% triangular infill to save weight and material.
 * **ECO (bicolored)**
-a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile. Lighter configuration, using 15% hexagonal infill to save weight and material.
+a special configuration for dual color printing, to be used with *bicolored* dual extrusion printer profile. Lighter configuration, using 30% triangular infill to save weight and material.
 
 #### FILAMENT presets
-* **Kuehling&Kuehling ABS snow-white**
-* **Kuehling&Kuehling ABS red**
-* **Kuehling&Kuehling ABS black**
-* **Kuehling&Kuehling HIPS**
-* **Kuehling&Kuehling PA natural**
-* **Kuehling&Kuehling PVA natural**
-* **Polymaker PC-Max**
-* **Polymaker PC-Plus**
+* **Polymaker PolyLite ABS**
+* **Polymaker PolyLite PC (transparent)**
+* **Polymaker PolyMax PC (black or white)**
+* **HIPS**
+* **PVA natural**
 * **igus® iglidur® 180-PF**
 
 Refer to our manual at http://docs.kuehlingkuehling.de for further information on printing with these materials.
 
 #### PRINTER presets
-* **LEFT EXTRUDER ONLY**
-for using left extruder only in single extruder print, right extruder unused
-* **RIGHT EXTRUDER ONLY**
-for using right extruder only in single extruder print, left extruder unused
-* **DUAL EXTRUDER (bicolored, nozzles 0.35+0.35)**
-a dual extruder setup for printing bicolored models using a different filament in each extruder. Refer to the manual regarding further information on setting up bicolored models in Slic3r.
-* **DUAL EXTRUDER (soluble support, nozzles 0.35+0.5)**
-special dual extruder preset for printing parts with soluble support structures. Install a 0.35mm nozzle on the left extruder (model material) and use a 0.5mm nozzle on the right extruder (support material). Tried and tested for ABS models printed with HIPS supports. Refer to the manual regarding further information on this topic.
+* **LEFT EXTRUDER ONLY (nozzle 0.35)**
+for using left extruder only in single extruder print, right extruder unused, nozzle 0.35 mm
+* **LEFT EXTRUDER ONLY (nozzle 0.5)**
+for using left extruder only in single extruder print, right extruder unused, nozzle 0.5 mm
+* **RIGHT EXTRUDER ONLY (nozzle 0.35)**
+for using right extruder only in single extruder print, left extruder unused, nozzle 0.35 mm
+* **RIGHT EXTRUDER ONLY (nozzle 0.5)**
+for using right extruder only in single extruder print, left extruder unused, nozzle 0.5 mm
+* **DUAL EXTRUDER (nozzles 0.35+0.35)**
+a dual extruder setup for printing bicolored models or soluble support structures using a different filament in each extruder. Nozzles 0.35 mm on each extruder.
+* **DUAL EXTRUDER (nozzles 0.5+0.5)**
+a dual extruder setup for printing bicolored models or soluble support structures using a different filament in each extruder. Nozzles 0.5 mm on each extruder.
 
 ## Installation
 
-**Attention:** When importing this profile bundle into Slic3r, existing presets may be overwritten. It is recommended to backup your custom/modified presets by exporting them as a bundle first (*File > Export Config Bundle*)
+**Attention:** When importing this profile bundle into PrusaSlicer, existing presets may be overwritten. It is recommended to backup your custom/modified presets by exporting them as a bundle first (*File > Export Config Bundle*)
 
-**Compatibility:** Slic3r Prusa Edition 1.41.0-beta or higher
+**Compatibility:** PrusaSlicer 2.2.0-beta or higher
 
-To install the provided configuration bundle to your Slic3r installation, load the .ini file through the Menu *File > Load Config Bundle*.
+To install the provided configuration bundle to your PrusaSlicer installation, load the .ini file through the Menu *File > Import > Import Config Bundle*.
 
 
 ## Current Version
